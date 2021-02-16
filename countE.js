@@ -3,7 +3,7 @@ let countE = 0
 
 for(let i = 0; i < trucChiantALire.length; i++) {
   if(trucChiantALire[i] === 'e')
-    countE += 1
+    countE++
 }
 
 console.log(`il y a ${countE} 'e' dans le texte très chiant à lire`)
