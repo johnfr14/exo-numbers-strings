@@ -4,8 +4,6 @@ let vowel = ['a', 'e', 'i', 'o', 'u', 'y']
 
 for(let i = 0; i < trucChiantALire.length; i++) {
   for(let j = 0; j < vowel.length; j++) {
-    if(trucChiantALire[i] === vowel[j])
-      countE++
     else if(trucChiantALire[i].toLowerCase() === vowel[j])
       countE++
   }
