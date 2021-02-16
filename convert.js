@@ -1,11 +1,4 @@
-let a = 10
-let b = 15
-let c = 16
-let d = 5005
-let e = 52390903
-
-
-let tableau = [a, b, c, d, e]
+let tableau = [10, 15, 16, 5005, 52390903]
 
 for(let i = 0; i < tableau.length; i++) {
   console.log(`${tableau[i]} en base binaire = ${tableau[i].toString(2)}`)
