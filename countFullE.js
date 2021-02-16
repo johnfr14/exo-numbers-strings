@@ -2,9 +2,7 @@ let trucChiantALire = "Je suis le ténébreux, - le veuf, - l'inconsolé,\rLe pr
 let countE = 0
 
 for(let i = 0; i < trucChiantALire.length; i++) {
-  if(trucChiantALire[i] === 'e')
-    countE++
-  else if(trucChiantALire[i].toLowerCase() === 'e')
+  if(trucChiantALire[i].toLowerCase() === 'e')
     countE++
 }
 
